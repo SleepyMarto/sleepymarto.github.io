@@ -1,0 +1,113 @@
+				html,
+				body {
+							height: 100%;
+							overflow: hidden;
+							}
+				.header1 {
+									font-size: 22px;
+									color: #FFFFFF;
+									text-align: center;
+									font-family: sans-serif;
+									}
+				.pcfb {
+							color: #FFFFFF;
+							font-family: sans-serif;
+							font-weight: bold;
+							}
+				.pcf {
+							color: #FFFFFF;
+							font-family: sans-serif;
+						}
+				.posofhi {
+									position: absolute;
+									left: 5%;
+									top: 250px;
+									font-size: 22px;
+									font-family: sans-serif;
+								}
+				.posofwia {
+									position: absolute;
+									left: 5%;
+									top: 275px;
+									font-size: 22px;
+									font-family: sans-serif;
+									}
+				.posofint {
+									position: absolute;
+									left: 5%;
+									top: 300px;
+									font-size: 22px;
+									font-family: sans-serif;
+									}
+				a {
+						color: darkblue;
+						text-decoration: none;
+					}
+				a:hover, a:active {
+													text-decoration: none;
+													color: #2328E1;
+													transition: 0.3s;
+													}
+				a.buttons {
+										color: #FFFFFF;
+										text-decoration: none;
+										font-size: 25px;
+									}
+				.mamspos {
+										position: absolute;
+										right: 5%;
+										top: 250px;
+										font-size: 22px;
+										font-family: sans-serif;
+									}
+				.faq {
+							position: absolute;
+							font-size: 25px;
+							top: 500px;
+							left: 5%;
+						}
+				.question {
+									position: absolute;
+									font-size: 22px;
+									top: 530px;
+									left: 5%;
+									color: #FFFFFF;
+									font-family: sans-serif;
+									font-weight: bold;
+									}
+				.answer {
+									position: absolute;
+									font-size: 22px;
+									top: 565px;
+									left: 5%;
+									width: 750px;
+								}
+				.stilldeveloping {
+												position: absolute;
+												font-size: 27px;
+												text-align: center;
+												top: 495px;
+												right: 5%;
+												width: 480px;
+												}
+				.homebutt {
+										position: absolute;
+										top: 80px;
+										width: 45px;
+										height: 45px;
+										left: 23.3px;
+									}
+				.homebutttext {
+												position: absolute;
+												top: 96.5px;
+												left: 68.5px;
+											}
+
+
+				body {
+							background-image: url(housenightskyupscaled.gif);
+							background-repeat: no-repeat;
+							background-attachment: fixed; 
+							background-size: cover;
+							background-color: #17191f;
+							}

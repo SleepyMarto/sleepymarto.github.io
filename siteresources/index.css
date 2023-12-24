@@ -1,0 +1,246 @@
+				html,
+				body {
+							height: 100%;
+							overflow: hidden;
+							}
+				.header1 {
+									font-size: 22px;
+									color: #FFFFFF;
+									text-align: center;
+									font-family: sans-serif;
+									}
+				.stilldeveloping {
+												position: absolute;
+												font-size: 27px;
+												text-align: center;
+												width: 430px;
+												top: 510px;
+												}
+				.pcfb {
+							color: #FFFFFF;
+							font-family: sans-serif;
+							font-weight: bold;
+							}
+				.pcf {
+							color: #FFFFFF;
+							font-family: sans-serif;
+						}
+				.hello {
+								position: absolute;
+								font-size: 35px;
+								text-align: left;
+								top: 250px;
+								left: 5%;
+							}
+				.IamSM {
+								position: absolute;
+								font-size: 22px;
+								text-align: left;
+								top: 300px;
+								left: 5%;
+								width: 500px;
+								}
+				.learnmore {
+										position: absolute;
+										font-size: 22px;
+										text-align: left;
+										top: 370px;
+										left: 5%;
+										}
+				.fom {
+							position: absolute;
+							text-align: left;
+							top: 395px;
+							left: 5%;
+							}
+				.seeya {
+								position: absolute;
+								font-size: 19px;
+								text-align: left;
+								top: 415px;
+								left: 5%;
+								}
+				a {
+					color: darkblue;
+					text-decoration: none;
+					}
+				a:hover, a:active{
+												text-decoration: none;
+												color: #2328E1;
+												transition: 0.3s;
+												}
+				a.buttons {
+									color: #FFFFFF;
+									text-decoration: none;
+									font-size: 25px;
+									}
+				a.here {
+									color: #FFFFFF;
+									font-size: 20px;
+									}
+				.whatIenjoy {
+										position: absolute;
+										font-size: 35px;
+										top: 250px;
+										right: 205px;
+										text-align: left;
+										font-family: sans-serif;
+										}
+				.lists1 {
+								position: absolute;
+								font-size: 30px;
+								top: 315px;
+								right: 200px;
+								text-align: left;
+								font-family: sans-serif;
+							}
+				.lists2 {
+								position: absolute;
+								font-size: 30px;
+								top: 350px;
+								right: 195px;
+								text-align: left;
+								font-family: sans-serif;
+							}
+				.lists3 {
+								position: absolute;
+								font-size: 30px;
+								top: 385px;
+								right: 224.4px;
+								text-align: left;
+								font-family: sans-serif;
+							}
+				.whatIenjoyvideo {
+														position: absolute;
+														top: 310px;
+														right: 384px;
+														width: 38px;
+														height: 38px;
+														}
+				.whatIenjoynyancat {
+														position: absolute;
+														top: 336px;
+														right: 369px;
+														width: 60px;
+														height: 60px;
+														}
+				.whatIenjoyfloppy {
+													position: absolute;
+													top: 385.35px;
+													right: 386px;
+													width: 34px;
+													height: 34px;
+													}
+				.socials {
+								position: absolute;
+								font-size: 35px;
+								top: 500px;
+								right: 240px;
+								text-align: center;
+								font-family: sans-serif;
+								}
+				.links1 {
+								position: absolute;
+								font-size: 30px;
+								top: 560px;
+								right: 197.8px;
+								text-align: left;
+								font-family: sans-serif;
+								}
+				.links2 {
+								position: absolute;
+								font-size: 30px;
+								top: 595px;
+								right: 261.1px;
+								text-align: left;
+								font-family: sans-serif;
+								}
+				.links3 {
+								position: absolute;
+								font-size: 30px;
+								top: 630px;
+								right: 286.1px;
+								text-align: left;
+								font-family: sans-serif;
+								}
+				.links4 {
+								position: absolute;
+								font-size: 30px;
+								top: 662px;
+								right: 170px;
+								text-align: left;
+								font-family: sans-serif;
+							}
+				.links5 {
+								position: absolute;
+								position: absolute;
+								font-size: 30px;
+								top: 700px;
+								right: 276px;
+								text-align: left;
+								font-family: sans-serif;
+								}
+				.youtubelink {
+											position: absolute;
+											top: 552.8px;
+											right: 376.5px;
+											width: 45px;
+											height: 45px;
+										}
+				.youtubelinkalt {
+												position: absolute;
+												top: 587.8px;
+												right: 376.5px;
+												width: 45px;
+												height: 45px;
+											}
+				.steam {
+								position: absolute;
+								top: 631.1px;
+								right: 384px;
+								width: 30px;
+								height: 30px;
+								}
+				.discord {
+									position: absolute;
+									top: 661.2px;
+									right: 379.5px;
+									width: 40px;
+									height: 40px;
+								}
+				.github {
+								position: absolute;
+								top: 700px;
+								right: 384.5px;
+								width: 30px;
+								height: 30px;
+								}
+								
+				/*  .bottom {
+										position: absolute;
+										bottom: 10px;
+										left: 50%;
+										color: #FFFFFF;
+										}  */
+
+				.aboutbutt {
+										position: absolute;
+										top: 89px;
+										width: 36px;
+										height: 36px;
+										left: 32.3px;
+									}
+				.aboutbutttext {
+												position: absolute;
+												top: 96.5px;
+												left: 68.5px;
+											}
+
+
+				body {
+							background-image: url(housenightskyupscaled.gif);
+							background-repeat: no-repeat;
+							background-attachment: fixed; 
+							background-size: cover;
+							background-color: #17191f;
+							}
