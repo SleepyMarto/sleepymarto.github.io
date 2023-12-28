@@ -98,12 +98,12 @@
 										top: 80px;
 										width: 45px;
 										height: 45px;
-										left: 23.3px;
+										left: 100.3px;
 									}
 				.homebutttext {
 												position: absolute;
 												top: 96.5px;
-												left: 68.5px;
+												left: 145.5px;
 											}
 
 
@@ -116,260 +116,307 @@
 							}
 
 
-			/* Extra small devices (phones, 600px and down) */
+			/* Breaks when less than 367 px */
+			/* Extra small devices (phones, 600px and down) "completed" */
 				@media (max-width: 600px) {
 																			.posofhi {
-																								position: absolute;
+																								left: 0.5%;
+																								top: 150px;
+																								font-size: 19px;
+																							}
+																			.posofwaI {
+																									left: 0.5%;
+																									top: 175px;
+																									font-size: 19px;
+																								}
+																			.posofint {
+																									left: 0.5%;
+																									top: 200px;
+																									width: 360px;
+																									font-size: 19px;
+																								}
+
+																			.mamspos {
+																									left: 0.5%;
+																									top: 270px;
+																									width: 300px;
+																									font-size: 19px;
+																								}
+
+																			.faq {
+																						left: 0.5%;
+																						top: 365px;
+																						font-size: 19px;
+																					}
+																			.question {
+																									left: 0.5%;
+																									top: 390px;
+																									font-size: 19px;
+																								}
+																			.answer {
+																								left: 0.5%;
+																								top: 420px;
+																								width: 340px;
+																								font-size: 19px;
+																							}
+
+																			.stilldeveloping {
+																												text-align: center;
+																												top: 520px;
+																												left: 0.5%;
+																												width: 335px;
+																												font-size: 19px;
+																											}
+
+																			.homebutt {
+																									top: 25px;
+																									width: 45px;
+																									height: 45px;
+																									left: 1%;
+																								}
+																			.homebutttext {
+																										display: none;
+																									}
+															}
+
+			/* Small devices (portrait tablets and large phones, 600px and up) "completed I think" */
+				@media (min-width: 600px) {
+																			.posofhi {
 																								left: 1%;
 																								top: 150px;
+																								font-size: 20px;
+																							}
+																			.posofwaI {
+																									left: 1%;
+																									top: 175px;
+																									font-size: 20px;
+																								}
+																			.posofint {
+																									left: 1%;
+																									top: 200px;
+																									width: 420px;
+																									font-size: 20px;
+																								}
+
+																			.mamspos {
+																									right: 1%;
+																									top: 270px;
+																									width: 315px;
+																									font-size: 20px;
+																								}
+
+																			.faq {
+																						left: 1%;
+																						top: 380px;
+																						font-size: 20px;
+																					}
+																			.question {
+																									left: 1%;
+																									top: 410px;
+																									font-size: 20px;
+																								}
+																			.answer {
+																								left: 1%;
+																								top: 445px;
+																								width: 480px;
+																								font-size: 20px;
+																							}
+
+																			.stilldeveloping {
+																												right: 1%;
+																												top: 530px;
+																												font-size: 20px;
+																											}
+
+																			.homebutt {
+																									top: 25px;
+																									width: 45px;
+																									height: 45px;
+																									left: 1%;
+																								}
+																			.homebutttext {
+																											display: none;
+																										}
+																		}
+
+			/* Medium devices (landscape tablets, 768px and up) "completed" */
+				@media (min-width: 768px) {
+																			.posofhi {
+																								left: 2%;
+																								top: 130px;
 																								font-size: 21px;
 																							}
 																			.posofwaI {
-																									position: absolute;
-																									left: 1%;
-																									top: 175px;
+																									left: 2%;
+																									top: 155px;
 																									font-size: 21px;
 																								}
 																			.posofint {
-																									position: absolute;
-																									left: 1%;
-																									top: 200px;
+																									left: 2%;
+																									top: 180px;
 																									font-size: 21px;
 																								}
 
 																			.mamspos {
-																									position: absolute;
-																									right: 1%;
-																									top: 255px;
+																									right: 2%;
+																									top: 250px;
+																									width: 330px;
 																									font-size: 21px;
-																									width: 330px
 																								}
 
 																			.faq {
-																						position: absolute;
-																						left: 1%;
+																						left: 2%;
 																						top: 360px;
 																						font-size: 21px;
 																					}
 																			.question {
-																									position: absolute;
-																									left: 1%;
-																									top: 385px;
-																									font-size: 21px;
+																									left: 2%;
+																									top: 380px;
 																								}
 																			.answer {
-																								position: absolute;
-																								left: 1%;
-																								top: 415px;
+																								left: 2%;
+																								top: 405px;
 																								font-size: 21px;
 																							}
 
 																			.stilldeveloping {
-																												position: absolute;
-																												right: 1%;
-																												top: 520px;
-																												font-size: 22px;
-																											}
-																	}
-
-			/* Small devices (portrait tablets and large phones, 600px and up) */
-				@media (min-width: 600px) {
-																			.posofhi {
-																								position: absolute;
-																								left: 1%;
-																								top: 150px;
-																								font-size: 22px;
-																							}
-																			.posofwaI {
-																									position: absolute;
-																									left: 1%;
-																									top: 175px;
-																									font-size: 22px;
-																								}
-																			.posofint {
-																									position: absolute;
-																									left: 1%;
-																									top: 200px;
-																									font-size: 22px;
-																								}
-
-																			.mamspos {
-																									position: absolute;
-																									right: 1%;
-																									top: 270px;
-																									font-size: 22px;
-																									width: 350px
-																								}
-
-																			.faq {
-																						position: absolute;
-																						left: 1%;
-																						top: 380px;
-																						font-size: 22px;
-																					}
-																			.question {
-																									position: absolute;
-																									left: 1%;
-																									top: 410px;
-																									font-size: 22px;
-																								}
-																			.answer {
-																								position: absolute;
-																								left: 1%;
-																								top: 445px;
-																								font-size: 22px;
-																							}
-
-																			.stilldeveloping {
-																												position: absolute;
-																												right: 1%;
-																												top: 530px;
-																												font-size: 23px;
-																											}
-																		}
-
-			/* Medium devices (landscape tablets, 768px and up) */
-				@media (min-width: 768px) {
-																			.posofhi {
-																								position: absolute;
-																								left: 2%;
-																								top: 150px;
-																							}
-																			.posofwaI {
-																									position: absolute;
-																									left: 2%;
-																									top: 175px;
-																								}
-																			.posofint {
-																									position: absolute;
-																									left: 2%;
-																									top: 200px;
-																								}
-
-																			.mamspos {
-																									position: absolute;
-																									right: 2%;
-																									top: 270px;
-																									width: 350px
-																								}
-
-																			.faq {
-																						position: absolute;
-																						left: 2%;
-																						top: 380px;
-																					}
-																			.question {
-																									position: absolute;
-																									left: 2%;
-																									top: 410px;
-																								}
-																			.answer {
-																								position: absolute;
-																								left: 2%;
-																								top: 445px;
-																							}
-
-																			.stilldeveloping {
-																												position: absolute;
 																												right: 2%;
-																												top: 530px;
+																												top: 490px;
+																												font-size: 21px;
 																											}
+
+																			.homebutt {
+																									top: 25px;
+																									width: 45px;
+																									height: 45px;
+																									left: 1%;
+																								}
+																			.homebutttext {
+																											display: none;
+																										}
 																		}
 
-			/* Large devices (laptops/desktops, 992px and up) */
+			/* Large devices (laptops/desktops, 992px and up) "completed" */
 				@media (min-width: 992px) {
 																			.posofhi {
-																								position: absolute;
-																								left: 5%;
+																								left: 4%;
 																								top: 250px;
+																								font-size: 22px;
 																							}
 																			.posofwaI {
-																									position: absolute;
-																									left: 5%;
+																									left: 4%;
 																									top: 275px;
+																									font-size: 22px;
 																								}
 																			.posofint {
-																									position: absolute;
-																									left: 5%;
+																									left: 4%;
 																									top: 300px;
+																									width: 400px;
+																									font-size: 22px;
 																								}
 
 																			.mamspos {
-																									position: absolute;
-																									right: 5%;
+																									right: 4%;
 																									top: 250px;
-																									width: 350px
+																									width: 350px;
+																									font-size: 22px;
 																								}
 
 																			.faq {
-																							position: absolute;
-																							left: 5%;
-																							top: 500px;
+																							left: 4%;
+																							top: 400px;
+																							font-size: 22px;
 																						}
 																			.question {
-																									position: absolute;
-																									left: 5%;
-																									top: 530px;
+																									left: 4%;
+																									top: 430px;
+																									font-size: 22px;
 																								}
 																			.answer {
-																								position: absolute;
-																								left: 5%;
-																								top: 565px;
+																								left: 4%;
+																								top: 465px;
+																								font-size: 22px;
 																							}
 
 																			.stilldeveloping {
-																												position: absolute;
-																												right: 5%;
-																												top: 560px;
+																												right: 4%;
+																												top: 460px;
 																												width: 390px;
+																												font-size: 22px;
 																											}
+
+																			.homebutt {
+																									position: absolute;
+																									top: 80px;
+																									width: 45px;
+																									height: 45px;
+																									left: 100.3px;
+																								}
+																			.homebutttext {
+																										display: block;
+																										top: 96.5px;
+																										left: 145.5px;
+																									}
 																		}
 
-			/* Extra large devices (large laptops and desktops, 1200px and up) */
+			/* Extra large devices (large laptops and desktops, 1200px and up) "completed" */
 				@media (min-width: 1200px) {
 																				.posofhi {
-																									position: absolute;
 																									left: 10%;
 																									top: 250px;
+																									font-size: 22px;
 																								}
 																				.posofwaI {
-																										position: absolute;
 																										left: 10%;
 																										top: 275px;
+																										font-size: 22px;
 																									}
 																				.posofint {
-																										position: absolute;
 																										left: 10%;
 																										top: 300px;
+																										font-size: 22px;
 																									}
 
 																				.mamspos {
-																										position: absolute;
 																										right: 10%;
 																										top: 250px;
-																										width: 350px
+																										width: 350px;
+																										font-size: 22px;
 																									}
 
 																				.faq {
-																							position: absolute;
 																							left: 10%;
 																							top: 500px;
+																							font-size: 22px;
 																						}
 																				.question {
-																										position: absolute;
 																										left: 10%;
 																										top: 530px;
+																										font-size: 22px;
 																									}
 																				.answer {
-																									position: absolute;
 																									left: 10%;
 																									top: 565px;
+																									font-size: 22px;
 																								}
 
 																				.stilldeveloping {
-																													position: absolute;
 																													right: 10%;
 																													top: 560px;
 																													width: 390px;
+																													font-size: 22px;
 																												}
+
+																				.homebutt {
+																									position: absolute;
+																									top: 80px;
+																									width: 45px;
+																									height: 45px;
+																									left: 100.3px;
+																								}
+																				.homebutttext {
+																										display: block;
+																										top: 96.5px;
+																										left: 145.5px;
+																									}
 																			}
