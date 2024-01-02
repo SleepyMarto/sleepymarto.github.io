@@ -116,117 +116,138 @@
 							}
 
 
-			/* Breaks when less than 367 px */
-
-			/* Extra small devices (phones, 600px and down) "completed" */
-				@media (max-width: 600px) {
+			/* Extra extra small devices (XXL- phones, 250px and up) "done" */
+				@media (min-width: 250px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
+																			.header1 {
+																									font-size: 18px;
+																									color: #FFFFFF;
+																									text-align: center;
+																									font-family: sans-serif;
+																								}
 																			.posofhi {
-																								left: 0.5%;
-																								top: 150px;
-																								font-size: 19px;
+																								left: 0rem;
+																								top: 95px;
+																								font-size: 16px;
 																							}
 																			.posofwaI {
-																									left: 0.5%;
-																									top: 175px;
-																									font-size: 19px;
+																									left: 0rem;
+																									top: 115px;
+																									width: 210px;
+																									font-size: 16px;
 																								}
 																			.posofint {
-																									left: 0.5%;
-																									top: 200px;
-																									width: 360px;
-																									font-size: 19px;
+																									left: 0rem;
+																									top: 150px;
+																									width: 230px;
+																									font-size: 16px;
 																								}
 
 																			.mamspos {
-																									left: 0.5%;
-																									top: 270px;
-																									width: 300px;
-																									font-size: 19px;
+																									right: 0rem;
+																									top: 215px;
+																									width: 200px;
+																									font-size: 16px;
 																								}
 
 																			.faq {
-																						left: 0.5%;
-																						top: 365px;
-																						font-size: 19px;
+																						left: 0rem;
+																						top: 325px;
+																						font-size: 16px;
 																					}
 																			.question {
-																									left: 0.5%;
-																									top: 390px;
-																									font-size: 19px;
+																									left: 0rem;
+																									top: 345px;
+																									width: 220px;
+																									font-size: 16px;
 																								}
 																			.answer {
-																								left: 0.5%;
-																								top: 420px;
-																								width: 340px;
-																								font-size: 19px;
+																								left: 0rem;
+																								top: 385px;
+																								width: 220px;
+																								font-size: 16px;
 																							}
 
 																			.stilldeveloping {
-																												text-align: center;
-																												top: 520px;
-																												left: 0.5%;
-																												width: 335px;
-																												font-size: 19px;
+																												right: 0rem;
+																												top: 490px;
+																												width: 195px;
+																												font-size: 12px;
 																											}
 
 																			.homebutt {
-																									top: 25px;
-																									width: 45px;
-																									height: 45px;
-																									left: 1%;
+																									top: 21px;
+																									width: 35px;
+																									height: 35px;
+																									left: 0%;
 																								}
-																			.homebutttext {
+																		.homebutttext {
 																										display: none;
 																									}
 															}
 
-			/* Small devices (portrait tablets and large phones, 600px and up) "completed I think" */
+			/* Extra small devices (XL- phones, 400px and up) " " */
+				
+
+			/* Small devices (portrait tablets and large phones, 600px and up) "finished." */
 				@media (min-width: 600px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
 																			.posofhi {
 																								left: 1%;
-																								top: 150px;
-																								font-size: 20px;
+																								top: 145px;
+																								font-size: 18px;
 																							}
 																			.posofwaI {
 																									left: 1%;
-																									top: 175px;
-																									font-size: 20px;
+																									top: 165px;
+																									width: 350px;
+																									font-size: 18px;
 																								}
 																			.posofint {
 																									left: 1%;
-																									top: 200px;
-																									width: 420px;
-																									font-size: 20px;
+																									top: 185px;
+																									width: 410px;
+																									font-size: 18px;
 																								}
 
 																			.mamspos {
 																									right: 1%;
-																									top: 270px;
-																									width: 315px;
-																									font-size: 20px;
+																									top: 250px;
+																									width: 285px;
+																									font-size: 18px;
 																								}
 
 																			.faq {
 																						left: 1%;
-																						top: 380px;
-																						font-size: 20px;
+																						top: 350px;
+																						font-size: 18px;
 																					}
 																			.question {
 																									left: 1%;
-																									top: 410px;
-																									font-size: 20px;
+																									top: 370px;
+																									width: 290px;
+																									font-size: 18px;
 																								}
 																			.answer {
 																								left: 1%;
-																								top: 445px;
+																								top: 395px;
 																								width: 480px;
-																								font-size: 20px;
+																								font-size: 18px;
 																							}
 
 																			.stilldeveloping {
 																												right: 1%;
-																												top: 530px;
-																												font-size: 20px;
+																												top: 490px;
+																												width: 250px;
+																												font-size: 14px;
 																											}
 
 																			.homebutt {
@@ -240,50 +261,58 @@
 																										}
 																		}
 
-			/* Medium devices (landscape tablets, 768px and up) "completed" */
+			/* Medium devices (landscape tablets, 768px and up) "yes" */
 				@media (min-width: 768px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
 																			.posofhi {
 																								left: 2%;
 																								top: 130px;
-																								font-size: 21px;
+																								font-size: 20px;
 																							}
 																			.posofwaI {
 																									left: 2%;
 																									top: 155px;
-																									font-size: 21px;
+																									width: 390px;
+																									font-size: 20px;
 																								}
 																			.posofint {
 																									left: 2%;
 																									top: 180px;
-																									font-size: 21px;
+																									font-size: 20px;
 																								}
 
 																			.mamspos {
 																									right: 2%;
 																									top: 250px;
-																									width: 330px;
-																									font-size: 21px;
+																									width: 320px;
+																									font-size: 20px;
 																								}
 
 																			.faq {
 																						left: 2%;
 																						top: 360px;
-																						font-size: 21px;
+																						font-size: 20px;
 																					}
 																			.question {
 																									left: 2%;
 																									top: 380px;
+																									width: 320px;
+																									font-size: 20px;
 																								}
 																			.answer {
 																								left: 2%;
 																								top: 405px;
-																								font-size: 21px;
+																								font-size: 20px;
 																							}
 
 																			.stilldeveloping {
 																												right: 2%;
-																												top: 490px;
-																												font-size: 21px;
+																												top: 500px;
+																												font-size: 16px;
 																											}
 
 																			.homebutt {
@@ -293,57 +322,64 @@
 																									left: 1%;
 																								}
 																			.homebutttext {
-																											display: none;
+																											display: hidden;
 																										}
 																		}
 
 			/* Large devices (laptops/desktops, 992px and up) "completed" */
 				@media (min-width: 992px) {
+																			html, body {
+																										height: 100%;
+																										overflow: hidden;
+																										margin: 0%;
+																									}
 																			.posofhi {
 																								left: 4%;
-																								top: 250px;
-																								font-size: 22px;
+																								top: 220px;
+																								font-size: 21px;
 																							}
 																			.posofwaI {
 																									left: 4%;
-																									top: 275px;
-																									font-size: 22px;
+																									top: 245px;
+																									width: 410px;
+																									font-size: 21px;
 																								}
 																			.posofint {
 																									left: 4%;
-																									top: 300px;
+																									top: 270px;
 																									width: 400px;
-																									font-size: 22px;
+																									font-size: 21px;
 																								}
 
 																			.mamspos {
 																									right: 4%;
-																									top: 250px;
-																									width: 350px;
-																									font-size: 22px;
+																									top: 220px;
+																									width: 330px;
+																									font-size: 21px;
 																								}
 
 																			.faq {
 																							left: 4%;
 																							top: 400px;
-																							font-size: 22px;
+																							font-size: 21px;
 																						}
 																			.question {
 																									left: 4%;
-																									top: 430px;
-																									font-size: 22px;
+																									top: 425px;
+																									width: 340px;
+																									font-size: 21px;
 																								}
 																			.answer {
 																								left: 4%;
-																								top: 465px;
-																								font-size: 22px;
+																								top: 455px;
+																								font-size: 21px;
 																							}
 
 																			.stilldeveloping {
 																												right: 4%;
 																												top: 460px;
-																												width: 390px;
-																												font-size: 22px;
+																												width: 300px;
+																												font-size: 19px;
 																											}
 
 																			.homebutt {
@@ -351,17 +387,22 @@
 																									top: 80px;
 																									width: 45px;
 																									height: 45px;
-																									left: 100.3px;
+																									left: 23.3px;
 																								}
 																			.homebutttext {
-																										display: block;
-																										top: 96.5px;
-																										left: 145.5px;
-																									}
+																											display: block;
+																												top: 96.5px;
+																												left: 68.5px;
+																										}
 																		}
 
-			/* Extra large devices (large laptops and desktops, 1200px and up) "completed" */
+			/* Extra large devices (large laptops and desktops, 1200px and up) "DoNe" */
 				@media (min-width: 1200px) {
+																			html, body {
+																										height: 100%;
+																										overflow: hidden;
+																										margin: 0%;
+																									}
 																				.posofhi {
 																									left: 10%;
 																									top: 250px;
@@ -370,11 +411,13 @@
 																				.posofwaI {
 																										left: 10%;
 																										top: 275px;
+																										width: 430px;
 																										font-size: 22px;
 																									}
 																				.posofint {
 																										left: 10%;
 																										top: 300px;
+																										width: 430px;
 																										font-size: 22px;
 																									}
 
@@ -392,12 +435,14 @@
 																						}
 																				.question {
 																										left: 10%;
-																										top: 530px;
+																										top: 525px;
+																										width: 350px;
 																										font-size: 22px;
 																									}
 																				.answer {
 																									left: 10%;
-																									top: 565px;
+																									top: 555px;
+																									width: 500px;
 																									font-size: 22px;
 																								}
 
@@ -405,18 +450,18 @@
 																													right: 10%;
 																													top: 560px;
 																													width: 390px;
-																													font-size: 22px;
+																													font-size: 20px;
 																												}
 
 																				.homebutt {
-																									top: 80px;
-																									width: 45px;
-																									height: 45px;
-																									left: 23.3px;
-																								}
-																				.homebutttext {
-																										display: block;
-																										top: 96.5px;
-																										left: 68.5px;
+																										top: 80px;
+																										width: 45px;
+																										height: 45px;
+																										left: 23.3px;
 																									}
+																				.homebutttext {
+																												display: block;
+																												top: 96.5px;
+																												left: 68.5px;
+																											}
 																			}
