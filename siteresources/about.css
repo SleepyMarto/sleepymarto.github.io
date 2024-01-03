@@ -106,6 +106,14 @@
 												left: 145.5px;
 											}
 
+				#bottom {
+										position: fixed;
+										font-size: 15px;
+										bottom: 10px;
+										left: 50%;
+										transform: translate(-50%);
+									}
+
 
 				body {
 							background-image: url(housenightskyupscaled.gif);
@@ -185,6 +193,10 @@
 																		.homebutttext {
 																										display: none;
 																									}
+
+																		#bottom {
+																								display: hidden;
+																							}
 															}
 
 			/* Extra small devices (XL- phones, 400px and up) "holymoly" */
@@ -256,6 +268,10 @@
 																		.homebutttext {
 																										display: none;
 																									}
+
+																		#bottom {
+																								display: hidden;
+																							}
 															}
 
 			/* Small devices (portrait tablets and large phones, 600px and up) "finished." */
@@ -327,6 +343,10 @@
 																			.homebutttext {
 																											display: none;
 																										}
+
+																		#bottom {
+																								display: hidden;
+																							}
 																		}
 
 			/* Medium devices (landscape tablets, 768px and up) "yes" */
@@ -398,6 +418,10 @@
 																			.homebutttext {
 																											display: hidden;
 																										}
+
+																		#bottom {
+																								display: hidden;
+																							}
 																		}
 
 			/* Large devices (laptops/desktops, 992px and up) "completed" */
@@ -471,6 +495,11 @@
 																												top: 96.5px;
 																												left: 68.5px;
 																										}
+
+																		#bottom {
+																								display: block;
+																								font-size: 13px;
+																							}
 																		}
 
 			/* Extra large devices (large laptops and desktops, 1200px and up) "DoNe" */
@@ -544,4 +573,9 @@
 																												top: 96.5px;
 																												left: 68.5px;
 																											}
+
+																		#bottom {
+																								display: block;
+																								font-size: 13px;
+																							}
 																			}
