@@ -124,63 +124,60 @@
 																										margin: 0%;
 																									}
 																			.header1 {
-																									font-size: 18px;
-																									color: #FFFFFF;
-																									text-align: center;
-																									font-family: sans-serif;
+																									font-size: 16px;
 																								}
 																			.posofhi {
-																								left: 0rem;
+																								left: 0.1rem;
 																								top: 95px;
 																								font-size: 16px;
 																							}
 																			.posofwaI {
-																									left: 0rem;
+																									left: 0.1rem;
 																									top: 115px;
 																									width: 210px;
 																									font-size: 16px;
 																								}
 																			.posofint {
-																									left: 0rem;
+																									left: 0.1rem;
 																									top: 150px;
 																									width: 230px;
 																									font-size: 16px;
 																								}
 
 																			.mamspos {
-																									right: 0rem;
+																									right: 0.1rem;
 																									top: 215px;
 																									width: 200px;
 																									font-size: 16px;
 																								}
 
 																			.faq {
-																						left: 0rem;
+																						left: 0.1rem;
 																						top: 325px;
 																						font-size: 16px;
 																					}
 																			.question {
-																									left: 0rem;
+																									left: 0.1rem;
 																									top: 345px;
 																									width: 220px;
 																									font-size: 16px;
 																								}
 																			.answer {
-																								left: 0rem;
+																								left: 0.1rem;
 																								top: 385px;
 																								width: 220px;
 																								font-size: 16px;
 																							}
 
 																			.stilldeveloping {
-																												right: 0rem;
+																												right: 0.1rem;
 																												top: 490px;
 																												width: 195px;
 																												font-size: 12px;
 																											}
 
 																			.homebutt {
-																									top: 21px;
+																									top: 16px;
 																									width: 35px;
 																									height: 35px;
 																									left: 0%;
@@ -190,8 +187,76 @@
 																									}
 															}
 
-			/* Extra small devices (XL- phones, 400px and up) " " */
-				
+			/* Extra small devices (XL- phones, 400px and up) "holymoly" */
+				@media (min-width: 400px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
+																			.header1 {
+																									font-size: 17px;
+																								}
+																			.posofhi {
+																								left: 0.1rem;
+																								top: 95px;
+																								font-size: 17px;
+																							}
+																			.posofwaI {
+																									left: 0.1rem;
+																									top: 115px;
+																									width: 210px;
+																									font-size: 17px;
+																								}
+																			.posofint {
+																									left: 0.1rem;
+																									top: 155px;
+																									width: 240px;
+																									font-size: 17px;
+																								}
+
+																			.mamspos {
+																									right: 0.1rem;
+																									top: 225px;
+																									width: 215px;
+																									font-size: 17px;
+																								}
+
+																			.faq {
+																						left: 0.1rem;
+																						top: 330px;
+																						font-size: 17px;
+																					}
+																			.question {
+																									left: 0.1rem;
+																									top: 350px;
+																									width: 220px;
+																									font-size: 17px;
+																								}
+																			.answer {
+																								left: 0.1rem;
+																								top: 395px;
+																								width: 230px;
+																								font-size: 17px;
+																							}
+
+																			.stilldeveloping {
+																												right: 0.1rem;
+																												top: 500px;
+																												width: 195px;
+																												font-size: 13px;
+																											}
+
+																			.homebutt {
+																									top: 20px;
+																									width: 35px;
+																									height: 35px;
+																									left: 0%;
+																								}
+																		.homebutttext {
+																										display: none;
+																									}
+															}
 
 			/* Small devices (portrait tablets and large phones, 600px and up) "finished." */
 				@media (min-width: 600px) {
@@ -200,6 +265,9 @@
 																										overflow: visible;
 																										margin: 0%;
 																									}
+																			.header1 {
+																									font-size: 18px;
+																								}
 																			.posofhi {
 																								left: 1%;
 																								top: 145px;
@@ -239,21 +307,21 @@
 																			.answer {
 																								left: 1%;
 																								top: 395px;
-																								width: 480px;
+																								width: 430px;
 																								font-size: 18px;
 																							}
 
 																			.stilldeveloping {
 																												right: 1%;
-																												top: 490px;
+																												top: 480px;
 																												width: 250px;
 																												font-size: 14px;
 																											}
 
 																			.homebutt {
-																									top: 25px;
-																									width: 45px;
-																									height: 45px;
+																									top: 20px;
+																									width: 40px;
+																									height: 40px;
 																									left: 1%;
 																								}
 																			.homebutttext {
@@ -268,55 +336,61 @@
 																										overflow: visible;
 																										margin: 0%;
 																									}
+																			.header1 {
+																									font-size: 19px;
+																								}
 																			.posofhi {
 																								left: 2%;
 																								top: 130px;
-																								font-size: 20px;
+																								font-size: 19px;
 																							}
 																			.posofwaI {
 																									left: 2%;
-																									top: 155px;
+																									top: 150px;
 																									width: 390px;
-																									font-size: 20px;
+																									font-size: 19px;
 																								}
 																			.posofint {
 																									left: 2%;
-																									top: 180px;
-																									font-size: 20px;
+																									top: 170px;
+																									width: 400px;
+																									font-size: 19px;
 																								}
 
 																			.mamspos {
 																									right: 2%;
-																									top: 250px;
-																									width: 320px;
-																									font-size: 20px;
+																									top: 240px;
+																									width: 300px;
+																									font-size: 19px;
 																								}
 
 																			.faq {
 																						left: 2%;
 																						top: 360px;
-																						font-size: 20px;
+																						font-size: 19px;
 																					}
 																			.question {
 																									left: 2%;
 																									top: 380px;
 																									width: 320px;
-																									font-size: 20px;
+																									font-size: 19px;
 																								}
 																			.answer {
 																								left: 2%;
 																								top: 405px;
-																								font-size: 20px;
+																								width: 425px;
+																								font-size: 19px;
 																							}
 
 																			.stilldeveloping {
 																												right: 2%;
 																												top: 500px;
-																												font-size: 16px;
+																												width: 250px;
+																												font-size: 15px;
 																											}
 
 																			.homebutt {
-																									top: 25px;
+																									top: 22px;
 																									width: 45px;
 																									height: 45px;
 																									left: 1%;
@@ -333,6 +407,9 @@
 																										overflow: hidden;
 																										margin: 0%;
 																									}
+																			.header1 {
+																									font-size: 21px;
+																								}
 																			.posofhi {
 																								left: 4%;
 																								top: 220px;
@@ -403,6 +480,9 @@
 																										overflow: hidden;
 																										margin: 0%;
 																									}
+																			.header1 {
+																									font-size: 22px;
+																								}
 																				.posofhi {
 																									left: 10%;
 																									top: 250px;
