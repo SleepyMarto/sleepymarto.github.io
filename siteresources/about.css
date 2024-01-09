@@ -4,7 +4,7 @@
 							overflow: hidden;
 							margin: 0px;
 							}
-				.header1 {
+				#header1 {
 									font-size: 22px;
 									color: #FFFFFF;
 									text-align: center;
@@ -125,7 +125,7 @@
 
 
 			/* Extra extra small devices (XXL- phones, 250px and up) "done" */
-				@media (min-width: 250px) {
+				@media (min-width: 250px)/*and (min-height: 540px)*/ {
 																			html, body {
 																										height: 100%;
 																										overflow: visible;
@@ -141,7 +141,7 @@
 																							}
 																			.posofwaI {
 																									left: 0.1rem;
-																									top: 115px;
+																									top: 114px;
 																									width: 210px;
 																									font-size: 16px;
 																								}
@@ -178,10 +178,11 @@
 																							}
 
 																			.stilldeveloping {
-																												right: 0.1rem;
+																												display: none;
+																												/*right: 0.1rem;
 																												top: 490px;
 																												width: 195px;
-																												font-size: 12px;
+																												font-size: 12px;*/
 																											}
 
 																			.homebutt {
@@ -200,7 +201,7 @@
 															}
 
 			/* Extra small devices (XL- phones, 400px and up) "holymoly" */
-				@media (min-width: 400px) {
+				@media (min-width: 400px)/*and (min-height: 570px)*/ {
 																			html, body {
 																										height: 100%;
 																										overflow: visible;
@@ -253,6 +254,7 @@
 																							}
 
 																			.stilldeveloping {
+																												display: block;
 																												right: 0.1rem;
 																												top: 500px;
 																												width: 195px;
@@ -260,9 +262,9 @@
 																											}
 
 																			.homebutt {
-																									top: 20px;
-																									width: 35px;
-																									height: 35px;
+																									top: 27px;
+																									width: 40px;
+																									height: 40px;
 																									left: 0%;
 																								}
 																		.homebutttext {
@@ -275,7 +277,7 @@
 															}
 
 			/* Small devices (portrait tablets and large phones, 600px and up) "finished." */
-				@media (min-width: 600px) {
+				@media (min-width: 600px)/*and (min-height: 540px)*/ {
 																			html, body {
 																										height: 100%;
 																										overflow: visible;
@@ -328,6 +330,7 @@
 																							}
 
 																			.stilldeveloping {
+																												display: block;
 																												right: 1%;
 																												top: 480px;
 																												width: 250px;
@@ -350,7 +353,7 @@
 																		}
 
 			/* Medium devices (landscape tablets, 768px and up) "yes" */
-				@media (min-width: 768px) {
+				@media (min-width: 768px)/*and (min-height: 560px)*/ {
 																			html, body {
 																										height: 100%;
 																										overflow: visible;
@@ -403,6 +406,7 @@
 																							}
 
 																			.stilldeveloping {
+																												display: block;
 																												right: 2%;
 																												top: 500px;
 																												width: 250px;
@@ -425,7 +429,7 @@
 																		}
 
 			/* Large devices (laptops/desktops, 992px and up) "completed" */
-				@media (min-width: 992px) {
+				@media (min-width: 992px)/*and (min-height: 560px)*/ {
 																			html, body {
 																										height: 100%;
 																										overflow: hidden;
@@ -477,6 +481,7 @@
 																							}
 
 																			.stilldeveloping {
+																												display: block;
 																												right: 4%;
 																												top: 460px;
 																												width: 300px;
@@ -503,7 +508,7 @@
 																		}
 
 			/* Extra large devices (large laptops and desktops, 1200px and up) "DoNe" */
-				@media (min-width: 1200px) {
+				@media (min-width: 1200px)/*and (min-height: 670px)*/ {
 																			html, body {
 																										height: 100%;
 																										overflow: hidden;
@@ -526,7 +531,7 @@
 																				.posofint {
 																										left: 10%;
 																										top: 300px;
-																										width: 430px;
+																										width: 460px;
 																										font-size: 22px;
 																									}
 
@@ -556,6 +561,7 @@
 																								}
 
 																				.stilldeveloping {
+																													display: block;
 																													right: 10%;
 																													top: 560px;
 																													width: 390px;
