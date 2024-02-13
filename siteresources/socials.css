@@ -1,0 +1,609 @@
+				html,
+				body {
+							height: 100%;
+							overflow: hidden;
+							margin: 0px;
+							}
+				#header1 {
+									font-size: 22px;
+									color: #FFFFFF;
+									text-align: center;
+									font-family: sans-serif;
+									}
+				.pcfb {
+							color: #FFFFFF;
+							font-family: sans-serif;
+							font-weight: bold;
+							}
+				.pcf {
+							color: #FFFFFF;
+							font-family: sans-serif;
+						}
+				a {
+						color: darkblue;
+						text-decoration: none;
+					}
+				a:hover, a:active {
+													text-decoration: none;
+													color: #2328E1;
+													transition: 0.4s;
+													}
+				a.buttons {
+										color: #FFFFFF;
+										text-decoration: none;
+										font-size: 25px;
+									}
+				a.buttons:hover, a.buttons:active {
+																					color: #6896E7;
+																					transition: 0.4s;
+																				}
+				a.report {
+									color: darkblue;
+									text-decoration: none;
+								}
+				a.report:hover, a.report:active {
+																			text-decoration: none;
+																			color:#FFFFFF;
+																			transition: 0.4s;
+																		}
+				.smedia {
+									color: #FFFFFF;
+									padding: 0;
+									width: 182px;
+									margin-top: 250px;
+									margin-left: 29%;
+									transform: translate(-29%);
+								}
+				.smedia h1 {
+											font-size: 30px;
+											font-family: sans-serif;
+										}
+				.smedia ul {
+										padding: 0;
+										margin-top: 0;
+										margin-left: 10px;
+										font-family: sans-serif;
+										font-size: 25px;
+										text-decoration: none;
+									}
+				.smedia ul li {
+											list-style: none;
+											font-weight: bold;
+											margin-bottom: 0px;
+											margin-left: 10px;
+										}
+				.smedia ul li:nth-child(1) img {
+																			width: 30px;
+																			height: 30px;
+																			margin-bottom: -6px;
+																		}
+				.smedia ul li:nth-child(2) img {
+																			width: 30px;
+																			height: 30px;
+																			margin-bottom: -6px;
+																		}
+				.smedia ul li:nth-child(3) img {
+																			width: 26px;
+																			height: 26px;
+																			margin-left: 2px;
+																			margin-bottom: -4px;
+																		}
+				.smedia ul li:nth-child(4) img {
+																			width: 30px;
+																			height: 30px;
+																			margin-bottom: -6px;
+																			margin-left: 0px;
+																		}
+				.smedia ul li:nth-child(5) img {
+																			width: 27px;
+																			height: 27px;
+																			margin-left: 1.5px;
+																			margin-bottom: -3.5px;
+																		}
+				.contact {
+									color: FFFFFF;
+									padding: 0;
+									margin-top: -250px;
+									margin-left: 75%;
+									transform: translate(-75%);
+									width: 305px;
+									
+								}
+				.contact h1 {
+											font-size: 30px;
+											font-family: sans-serif;
+											color: #FFFFFF;
+										}
+				.contact ul {
+											padding: 0;
+											margin: 0;
+											font-family: sans-serif;
+											font-size: 20px;
+											color: #FFFFFF;
+										}
+				.contact ul li {
+											list-style: none;
+											margin-bottom: 0px;
+											margin-left: 0px;
+											color: #FFFFFF;
+								}
+				.message {
+										border-top: 2px solid;
+										border-bottom: 2px solid;
+										border-color: white;
+										width: 305px;
+										margin-left: 75%;
+										transform: translate(-75%);
+										margin-top: 70px;
+									}
+				.message p {
+											color: #FFFFFF;
+											font-family: sans-serif;
+											font-size: 19.7px;
+											text-align: center;
+										}
+
+				.bottom {
+									position: fixed;
+									font-weight: bold;
+									font-family: sans-serif;
+									font-size: 15px;
+									bottom: 0.5em;
+									left: 50%;
+									transform: translate(-50%);
+									margin-top: 0;
+									padding: 0;
+									text-align: center;
+								}
+				.bottom p {
+										font-size: 14px;
+										color: #FFFFFF;
+										font-weight: normal;
+										text-align: center;
+										margin: 0;
+										padding: 0;
+									}
+				.homebutt {
+										position: absolute;
+										top: 80px;
+										width: 45px;
+										height: 45px;
+										left: 23.3px;
+									}
+				.homebutttext {
+												position: absolute;
+												top: 96.5px;
+												left: 69.9px;
+											}
+				.aboutbutt {
+										position: absolute;
+										top: 89px;
+										width: 36px;
+										height: 36px;
+										left: 152.3px;
+									}
+				.aboutbutttext {
+												position: absolute;
+												top: 96.5px;
+												left: 190.5px;
+											}
+				.socialsbutt {
+											position: absolute;
+											top: 85px;
+											width: 46px;
+											height: 46px;
+											left: 270px;
+										}
+				.socialsbutttext {
+												position: absolute;
+												top: 96.5px;
+												left: 318.3px;
+												transform: rotate(2.5deg);
+											}
+				@keyframes push {
+						0% {
+							top: -100%;
+						}
+						100% {
+							top: 0%;
+						}
+				}
+				@keyframes gone {
+					0% {
+						opacity: 0;
+					}
+					100% {
+						opacity: 1;
+					}
+				}
+				.loadpush {
+										position: fixed;
+										animation: push 2s;
+										width: 100%;
+										height: 100%;
+									}
+				.gone {
+								position: fixed;
+								animation: gone 3s;
+							}
+
+
+				body {
+							background-image: url(housenightskyupscaled.gif);
+							background-repeat: no-repeat;
+							background-attachment: fixed;
+							background-size: cover;
+							background-color: #17191f;
+							}
+
+
+			/* Extra extra small devices (XXL- phones, 250px and up) "" */
+				@media (min-width: 250px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
+																			#header1 {
+																									font-size: 16px;
+																								}
+																			.smedia {
+																									margin-top: 80px;
+																									margin-left: 50%;
+																									transform: translate(-50%);
+																								}
+																			.contact {
+																								margin-top: -0px;
+																								margin-left: 50%;
+																								transform: translate(-50%);
+																								width: 200px;
+																							}
+																			.message {
+																										width: 200px;
+																										margin-left: 50%;
+																										transform: translate(-50%);
+																										margin-top: 10px;
+																									}
+
+																			.homebutt {
+																									top: 75px;
+																									width: 35px;
+																									height: 35px;
+																									left: 1px;
+																								}
+																			.homebutttext {
+																											display: none;
+																										}
+																			.aboutbutt {
+																										top: 83px;
+																										width: 26px;
+																										height: 26px;
+																										left: 45px;
+																									}
+																			.aboutbutttext {
+																											display: none;
+																										}
+																			.socialsbutt {
+																										top: 78px;
+																										width: 36px;
+																										height: 36px;
+																										left: 80px;
+																									}
+																			.socialsbutttext {
+																											display: none;
+																										}
+
+																			.bottom {
+																									display: none;
+																								}
+																		}
+
+			/* Extra small devices (XL- phones, 400px and up) "" */
+				@media (min-width: 400px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
+																			#header1 {
+																									font-size: 17px;
+																								}
+																			.smedia {
+																									margin-top: 70px;
+																									margin-left: 50%;
+																									transform: translate(-50%);
+																								}
+																			.contact {
+																								margin-top: -0px;
+																								margin-left: 50%;
+																								transform: translate(-50%);
+																								width: 305px;
+																							}
+																			.message {
+																										width: 305px;
+																										margin-left: 50%;
+																										transform: translate(-50%);
+																										margin-top: 10px;
+																									}
+
+																			.homebutt {
+																									top: 73px;
+																									width: 40px;
+																									height: 40px;
+																									right: 1%;
+																								}
+																			.homebutttext {
+																											display: none;
+																										}
+																			.aboutbutt {
+																										top: 80px;
+																										width: 31px;
+																										height: 31px;
+																										right: 55px;
+																									}
+																			.aboutbutttext {
+																											display: none;
+																										}
+																			.socialsbutt {
+																										top: 75px;
+																										width: 41px;
+																										height: 41px;
+																										right: 95px;
+																									}
+																			.socialsbutttext {
+																											display: none;
+																										}
+
+																			.bottom {
+																									display: block;
+																									font-size: 14px;
+																								}
+																		}
+
+			/* Small devices (portrait tablets and large phones, 600px and up) "" */
+				@media (min-width: 600px) {
+																			html, body {
+																										height: 100%;
+																										overflow: visible;
+																										margin: 0%;
+																									}
+																			#header1 {
+																									font-size: 18px;
+																								}
+																			.smedia {
+																									margin-top: 250px;
+																									margin-left: 10%;
+																									transform: translate(-10%);
+																								}
+																			.contact {
+																								margin-top: -250px;
+																								margin-left: 85%;
+																								transform: translate(-85%);
+																								width: 305px;
+																							}
+																			.message {
+																										width: 305px;
+																										margin-left: 85%;
+																										transform: translate(-85%);
+																										margin-top: 70px;
+																									}
+
+																			.homebutt {
+																									top: 30px;
+																									width: 40px;
+																									height: 40px;
+																									left: 10px;
+																								}
+																			.homebutttext {
+																											display: none;
+																										}
+																			.aboutbutt {
+																										top: 38px;
+																										width: 31px;
+																										height: 31px;
+																										left: 55px;
+																									}
+																			.aboutbutttext {
+																											display: none;
+																										}
+																			.socialsbutt {
+																										top: 33px;
+																										width: 41px;
+																										height: 41px;
+																										left: 90px;
+																									}
+																			.socialsbutttext {
+																											display: none;
+																										}
+
+																			.bottom {
+																									display: block;
+																									font-size: 14px;
+																								}
+																		}
+
+			/* Medium devices (landscape tablets, 768px and up) "" */
+				@media (min-width: 768px) {
+																			html, body {
+																										height: 100%;
+																										overflow: hidden;
+																										margin: 0%;
+																									}
+																			#header1 {
+																									font-size: 19px;
+																								}
+																			.smedia {
+																									margin-top: 250px;
+																									margin-left: 20%;
+																									transform: translate(-20%);
+																								}
+																			.contact {
+																									margin-top: -250px;
+																									margin-left: 75%;
+																									transform: translate(-75%);
+																									width: 305px;
+																								}
+																			.message {
+																										width: 305px;
+																										margin-left: 75%;
+																										transform: translate(-75%);
+																										margin-top: 70px;
+																									}
+
+																			.homebutt {
+																									top: 30px;
+																									width: 45px;
+																									height: 45px;
+																									left: 10px;
+																								}
+																			.homebutttext {
+																											display: none;
+																										}
+																			.aboutbutt {
+																									top: 36px;
+																									width: 36px;
+																									height: 36px;
+																									left: 60px;
+																								}
+																			.aboutbutttext {
+																											display: none;
+																										}
+																			.socialsbutt {
+																										top: 31px;
+																										width: 46px;
+																										height: 46px;
+																										left: 100px;
+																									}
+																			.socialsbutttext {
+																												display: none;
+																											}
+
+																			.bottom {
+																									display: block;
+																									font-size: 14px;
+																								}
+																		}
+
+			/* Large devices (laptops/desktops, 992px and up) "" */
+				@media (min-width: 992px) {
+																			html, body {
+																										height: 100%;
+																										overflow: hidden;
+																										margin: 0%;
+																									}
+																			#header1 {
+																									font-size: 21px;
+																								}
+																			.smedia {
+																									margin-top: 250px;
+																									margin-left: 29%;
+																									transform: translate(-29%);
+																								}
+																				.contact {
+																									margin-top: -250px;
+																									margin-left: 75%;
+																									transform: translate(-75%);
+																									width: 305px;
+																								}
+																				.message {
+																										width: 305px;
+																										margin-left: 75%;
+																										transform: translate(-75%);
+																										margin-top: 70px;
+																									}
+
+																				.homebutt {
+																										top: 80px;
+																										width: 45px;
+																										height: 45px;
+																										left: 23.3px;
+																									}
+																				.homebutttext {
+																												display: block;
+																											}
+																				.aboutbutt {
+																											top: 89px;
+																											width: 36px;
+																											height: 36px;
+																											left: 152.3px;
+																										}
+																				.aboutbutttext {
+																												display: block;
+																											}
+																				.socialsbutt {
+																											top: 85px;
+																											width: 46px;
+																											height: 46px;
+																											left: 270px;
+																										}
+																				.socialsbutttext {
+																												display: block;
+																											}
+
+																				.bottom {
+																										display: block;
+																										font-size: 15px;
+																									}
+																		}
+
+			/* Extra large devices (large laptops and desktops, 1200px and up) "yes" */
+				@media (min-width: 1200px) {
+																				html, body {
+																											height: 100%;
+																											overflow: hidden;
+																											margin: 0%;
+																									}
+																				#header1 {
+																										font-size: 22px;
+																									}
+																				.smedia {
+																									margin-top: 250px;
+																									margin-left: 29%;
+																									transform: translate(-29%);
+																								}
+																				.contact {
+																									margin-top: -250px;
+																									margin-left: 75%;
+																									transform: translate(-75%);
+																									width: 305px;
+																								}
+																				.message {
+																										width: 305px;
+																										margin-left: 75%;
+																										transform: translate(-75%);
+																										margin-top: 70px;
+																									}
+
+																				.homebutt {
+																										top: 80px;
+																										width: 45px;
+																										height: 45px;
+																										left: 23.3px;
+																									}
+																				.homebutttext {
+																												display: block;
+																											}
+																				.aboutbutt {
+																											top: 89px;
+																											width: 36px;
+																											height: 36px;
+																											left: 152.3px;
+																										}
+																				.aboutbutttext {
+																												display: block;
+																											}
+																				.socialsbutt {
+																											top: 85px;
+																											width: 46px;
+																											height: 46px;
+																											left: 270px;
+																										}
+																				.socialsbutttext {
+																												display: block;
+																											}
+
+																				.bottom {
+																										display: block;
+																										font-size: 15px;
+																									}
+																			}
