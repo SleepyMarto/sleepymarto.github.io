@@ -81,9 +81,6 @@ a.report:hover, a.report:active {
 	left: 7%;
 	width: 500px;
 }
-.learnmore p4 {
-	font-size: 20px;
-}
 .learnmore p {
 	margin-top: -5px;
 	font-style: italic;
@@ -457,6 +454,20 @@ body {
 		left: 10%;
 		width: 300px;
 	}
+	.learnmore p {
+		margin-top: -5px;
+		font-style: italic;
+		font-size: 17px;
+	}
+	.learnmore p4 {
+		margin-top: -5px;
+		font-style: italic;
+		font-size: 16px;
+	}
+	.learnmore p {
+		margin-top: -5px;
+		font-size: 16px;
+	}
 	.whatIenjoy {
 		font-size: 17px;
 		top: 370px;
@@ -578,9 +589,18 @@ body {
 		left: 7%;
 		width: 240px;
 	}
+	.learnmore p4 {
+		margin-top: -5px;
+		font-style: italic;
+		font-size: 17px;
+	}
+	.learnmore p {
+		margin-top: -5px;
+		font-size: 17px;
+	}
 	.whatIenjoy {
 		font-size: 18px;
-		top: 220px;
+		top: 190px;
 		right: 7%;
 		text-align: left;
 	}
@@ -613,7 +633,7 @@ body {
 		margin-left: 5px;
 	}
 	.projects {
-		top: 450px;
+		top: 440px;
 		right: 1%;
 		font-size: 18px;
 		width: 160px;
@@ -697,6 +717,15 @@ body {
 		top: 300px;
 		left: 7%;
 		width: 320px;
+	}
+	.learnmore p4 {
+		margin-top: -5px;
+		font-style: italic;
+		font-size: 18px;
+	}
+	.learnmore p {
+		margin-top: -5px;
+		font-size: 18px;
 	}
 	.whatIenjoy {
 		font-size: 19px;
@@ -818,6 +847,15 @@ body {
 		left: 7%;
 		width: 500px;
 	}
+	.learnmore p4 {
+		margin-top: -5px;
+		font-style: italic;
+		font-size: 20px;
+	}
+	.learnmore p {
+		margin-top: -5px;
+		font-size: 19px;
+	}
 	.whatIenjoy {
 		font-size: 21px;
 		top: 220px;
@@ -915,7 +953,7 @@ body {
 		margin: 0%;
 	}
 	#header1 {
-		font-size: 21px;
+		font-size: 22px;
 	}
 
 	.hello {
@@ -937,6 +975,15 @@ body {
 		top: 370px;
 		left: 7%;
 		width: 500px;
+	}
+	.learnmore p4 {
+		margin-top: -5px;
+		font-style: italic;
+		font-size: 21px;
+	}
+	.learnmore p {
+		margin-top: -5px;
+		font-size: 19px;
 	}
 	.whatIenjoy {
 		font-size: 22px;
