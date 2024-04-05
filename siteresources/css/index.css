@@ -34,7 +34,7 @@ a.buttons {
 	color: #FFFFFF;
 	text-decoration: none;
 	font-size: 25px;
-	}
+}
 a.buttons:hover, a.buttons:active {
 	color: #6896E7;
 	transition: 0.4s;
@@ -145,6 +145,12 @@ a.report:hover, a.report:active {
 	padding: 0;
 	margin-top: 5px;
 	margin-left: 60px;
+}
+.projects ul li:nth-child(3) {
+	font-weight: bold;
+	padding: 0;
+	margin-top: 5px;
+	margin-left: 50px;
 }
 .stilldeveloping {
 	position: absolute;
