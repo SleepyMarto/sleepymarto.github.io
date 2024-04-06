@@ -254,7 +254,7 @@ body {
 }
 
 
-/* Extra extra small devices (XXL- phones, 250px and up) "" */
+/* Extra extra small devices (XXL- phones, 250px and up) "end me please" */
 @media (min-width: 250px) {
 	html, body {
 		height: 100%;
@@ -315,7 +315,7 @@ body {
 	}
 }
 
-/* Extra small devices (XL- phones, 400px and up) "" */
+/* Extra small devices (XL- phones, 400px and up) "perfect" */
 @media (min-width: 400px) {
 	html, body {
 		height: 100%;
@@ -376,7 +376,7 @@ body {
 	}
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) "" */
+/* Small devices (portrait tablets and large phones, 600px and up) "good" */
 @media (min-width: 600px) {
 	html, body {
 		height: 100%;
@@ -437,7 +437,7 @@ body {
 	}
 }
 
-/* Medium devices (landscape tablets, 768px and up) "" */
+/* Medium devices (landscape tablets, 768px and up) "lookin' nice" */
 @media (min-width: 768px) {
 	html, body {
 		height: 100%;
@@ -498,7 +498,7 @@ body {
 	}
 }
 
-/* Large devices (laptops/desktops, 992px and up) "" */
+/* Large devices (laptops/desktops, 992px and up) "gooood" */
 @media (min-width: 992px) {
 	html, body {
 		height: 100%;
