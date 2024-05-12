@@ -7,12 +7,10 @@ const quotes = [
     "SlepeMartoe'sAnIdiot",
     "SleepeMartoe'sAutictis",
     "lol",
-    //"Need me a Dommy Mommy",
     "Good luck!",
     "Hi",
     "Hello",
     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    //"Need me a Domme",
     "Yes"
 ];
     
