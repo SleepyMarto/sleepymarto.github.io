@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="resources/imgs/katarasad.png"/>
+
+        <title> Musc - SleepyMarto </title>
+</head>
+
+<style>
+
+/* please kill me for writing internal css
+    was too lazy to create a new css file  */
+
+html,
+body {
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0px;
+}
+#header1 {
+	font-size: 22px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: sans-serif;
+}
+.pcfb {
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.pcf {
+	color: #FFFFFF;
+	font-family: sans-serif;
+}
+a {
+	color: #929BD8;
+}
+a:hover, a:active {
+	color: #B0B9F6;
+	transition: 0.4s;
+}
+a.buttons {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 25px;
+}
+a.buttons:hover, a.buttons:active {
+	color: #6896E7;
+	transition: 0.4s;
+}
+.songs {
+	position: absolute;
+	font-family: sans-serif;
+	top: 15%;
+	left: 50%;
+	transform: translate(-50%);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.1;
+	font-size: 22px;
+}
+.changelog {
+	position: absolute;
+	font-family: sans-serif;
+	top: 75%;
+	left: 50%;
+	transform: translate(-50%);
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 2;
+	font-size: 20px;
+}
+video {
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}
+.gobackbutt {
+	position: absolute;
+	top: 88px;
+	width: 45px;
+	height: 45px;
+	left: 23.3px;
+}
+.gobackbutttext {
+	position: absolute;
+	top: 96.5px;
+	left: 69.9px;
+}
+
+
+body {
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-size: cover;
+	background-color: #17191f;
+}
+</style>
+
+<body>
+        <div id="header1">
+            <h1>  </h1>
+        </div>
+
+		  <div class="songs">
+			  <div class="pcfb">
+			     <p>
+				     <a href="radio-rap.html"> Rap (not mumbling) </a><br><br><br><br>
+					 <a href="radio-rock.html"> Rock (rock and metal aren't the same thing) </a><br><br><br><br>
+					 <a href="radio-metal.html"> Metal (iron, cobalt, aluminium, etc..) </a><br><br><br><br>
+				     <a href="radio-dance.html"> Dance </a>
+			     </p>
+            </div>
+		  </div>
+
+		  <div class="changelog">
+				<p><b style="font-size: 23px;">
+					Changelog
+				 </b>
+				 <br><br><br>
+				 <i><strong>
+						06/05/24 - v0.0.3s
+				 </strong></i><br><br>
+			     <ul>
+					<li>
+						New songs have recently been added:<br>
+						radio-rap - 106 songs<br>
+						radio-rock - 52 songs<br>
+						radio-metal - 97 songs<br>
+						radio-dance - 40 song
+					</li>
+					<br>
+					<li>
+						v0.0.2s used to be a mishmash of genres<br>
+						Now, we have 4 different genre categories:<br>
+						rap, rock, metal and dance
+					</li>
+					<br>
+					<li>
+						Finally added a button that gives you a new song!
+					</li>
+					<br>
+					<li>
+						New background<br>
+						v0.0.2s's one was awful and hard on the eyes.
+					</li>
+					<br>
+					<li>
+						All bitrates are now 320kpbs<br>
+						in v0.0.2s, the bitrate was 128kbps<br>
+						(only a few songs remain at the lower bitrate)
+					</li>
+				</ul>
+				<br><br><br>
+				<i><strong>
+					04/06/2024 - v0.0.2s
+				</strong></i><br><br>
+				<ul>
+					<li> this thing was officially live<br>
+					yes, the first version was v0.0.2s, lol </li>
+				</ul>
+				</p>
+			</div>
+
+			<video width="0" height="0" autoplay loop>
+				<source src="resources/videos/8bit.mp4" type="video/mp4">
+			</video>
+
+			<div class="gobackbutttext">
+				<div class="pcfb">
+					<a class="buttons" href="https://sleepymarto.xyz"> Return to the site </a>
+				</div>
+			</div>
+				<a href="index.html"> <img class="gobackbutt" src="resources/imgs/goback.png"/> </a>
+</body>
+
+</html>
