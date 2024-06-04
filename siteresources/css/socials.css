@@ -20,21 +20,21 @@ body {
 	font-family: sans-serif;
 }
 a.email {
-	color: #929BD8;
+	color: #B0B9F6;
 	text-decoration: none;
 }
 a.email:hover, a.email:active {
 	text-decoration: none;
-	color: B0B9F6;
+	color: #485EC0;
 	transition: 0.4s;
 }
 a.smedias {
-	color: #485EC0;
+	color: #B0B9F6;
 	text-decoration: none;
 }
 a.smedias:hover, a.smedias:active {
 	text-decoration: none;
-	color: #2328E1;
+	color: #485EC0;
 	transition: 0.4s;
 }
 a.buttons {
@@ -156,6 +156,8 @@ a.report:hover, a.report:active {
 
 .bottom {
 	position: fixed;
+	transition: 0.5s;
+	opacity: 0.6;
 	font-weight: bold;
 	font-family: sans-serif;
 	font-size: 15px;
@@ -173,6 +175,10 @@ a.report:hover, a.report:active {
 	text-align: center;
 	margin: 0;
 	padding: 0;
+}
+.bottom:hover {
+	opacity: 1;
+	transition: 0.5s;
 }
 .homebutt {
 	position: absolute;
@@ -246,7 +252,7 @@ a.report:hover, a.report:active {
 
 
 body {
-	background-image: url(../gifs/housenightskyupscaled.gif);
+	background-image: url(../imgs/jcherry.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -254,7 +260,7 @@ body {
 }
 
 
-/* Extra extra small devices (XXL- phones, 250px and up) "end me please" */
+/* Extra extra small devices (XXXXXXXXXXXXXXXXXXXXL-------------- phones, 250px and up) "fuck me" */
 @media (min-width: 250px) {
 	html, body {
 		height: 100%;
@@ -315,7 +321,68 @@ body {
 	}
 }
 
-/* Extra small devices (XL- phones, 400px and up) "perfect" */
+/*Extra small devices (XXL- phones, 300px and up) */
+@media (min-width: 300px) {
+	html, body {
+		height: 100%;
+		overflow: visible;
+		margin: 0%;
+	}
+	#header1 {
+		font-size: 17px;
+	}
+	.smedia {
+		margin-top: 90px;
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+	.contact {
+		margin-top: -0px;
+		margin-left: 50%;
+		transform: translate(-50%);
+		width: 270px;
+	}
+	.message {
+		width: 270px;
+		margin-left: 50%;
+		transform: translate(-50%);
+		margin-top: 10px;
+	}
+
+	.homebutt {
+		top: 73px;
+		width: 40px;
+		height: 40px;
+		right: 1%;
+	}
+	.homebutttext {
+		display: none;
+	}
+	.aboutbutt {
+		top: 80px;
+		width: 31px;
+		height: 31px;
+		right: 55px;
+	}
+	.aboutbutttext {
+		display: none;
+	}
+	.socialsbutt {
+		top: 75px;
+		width: 41px;
+		height: 41px;
+		right: 95px;
+	}
+	.socialsbutttext {
+		display: none;
+	}
+
+	.bottom {
+		font-size: 14px;
+	}
+}
+
+/* Extra small devices (XL- phones, 400px and up) */
 @media (min-width: 400px) {
 	html, body {
 		height: 100%;
@@ -326,7 +393,7 @@ body {
 		font-size: 17px;
 	}
 	.smedia {
-		margin-top: 100px;
+		margin-top: 90px;
 		margin-left: 50%;
 		transform: translate(-50%);
 	}
@@ -376,7 +443,7 @@ body {
 	}
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) "good" */
+/* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
 	html, body {
 		height: 100%;
@@ -387,12 +454,12 @@ body {
 		font-size: 18px;
 	}
 	.smedia {
-		margin-top: 100px;
+		margin-top: 150px;
 		margin-left: 90%;
 		transform: translate(-90%);
 	}
 	.contact {
-		margin-top: -250px;
+		margin-top: -230px;
 		margin-left: 10%;
 		transform: translate(-10%);
 		width: 305px;
@@ -437,7 +504,7 @@ body {
 	}
 }
 
-/* Medium devices (landscape tablets, 768px and up) "lookin' nice" */
+/* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
 	html, body {
 		height: 100%;
@@ -498,7 +565,7 @@ body {
 	}
 }
 
-/* Large devices (laptops/desktops, 992px and up) "gooood" */
+/* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
 	html, body {
 		height: 100%;
@@ -559,7 +626,7 @@ body {
 	}
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) "yes" */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
 	html, body {
 			height: 100%;
